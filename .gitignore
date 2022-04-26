@@ -1,0 +1,5 @@
+/.vscode
+/index.ts
+/node_modules
+/testExecutor.js
+/tsconfig.json

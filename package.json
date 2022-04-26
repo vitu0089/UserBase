@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "node-json-db": "^1.5.0",
+    "ts-node": "^10.7.0"
+  },
+  "name": "userbase",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
