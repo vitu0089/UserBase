@@ -13,8 +13,8 @@ exports.UserHandler = void 0;
 const node_json_db_1 = require("node-json-db");
 let DatabaseLocation = "./Databases/";
 class UserHandler {
-    constructor(Username, HasHealth) {
-        this.db = new node_json_db_1.JsonDB(DatabaseLocation + Username);
+    constructor(username, addons) {
+        this.db = new node_json_db_1.JsonDB(DatabaseLocation + username);
     }
     create(item_name, value) {
         return __awaiter(this, void 0, void 0, function* () {
